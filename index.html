@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Responsive Image Gallery</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <title>Welcome To Deepashree Gallery</title>
+    <header>
+        <h1>Responsive Image Gallery</h1>
+        <p>Explore Beautiful Images</p>
+    </header>
+
+    <!-- Filter Buttons -->
+    <div class="buttons">
+
+        <button class="filter-btn active" data-filter="all">All</button>
+
+        <button class="filter-btn" data-filter="nature">Nature</button>
+
+        <button class="filter-btn" data-filter="city">City</button>
+
+        <button class="filter-btn" data-filter="food">Food</button>
+
+        <button class="filter-btn" data-filter="technology">Technology</button>
+
+    </div>
+
+    <!-- Image Gallery -->
+    <div class="gallery">
+
+        <img src="images/nature1.jpg" class="gallery-item" data-category="nature">
+
+        <img src="images/nature2.jpg" class="gallery-item" data-category="nature">
+
+        <img src="images/nature3.jpg" class="gallery-item" data-category="nature">
+
+        <img src="images/nature4.jpg" class="gallery-item" data-category="nature">
+
+        <img src="images/nature5.jpg" class="gallery-item" data-category="nature">
+
+        <img src="images/city2.jpg" class="gallery-item" data-category="city">
+
+        <img src="images/city3.jpg" class="gallery-item" data-category="city">
+
+        <img src="images/city4.jpg" class="gallery-item" data-category="city">
+
+        <img src="images/city5.jpg" class="gallery-item" data-category="city">
+
+        <img src="images/food1.webp" class="gallery-item" data-category="food">
+
+        <img src="images/food2.jpg" class="gallery-item" data-category="food">
+
+        <img src="images/food3.jpg" class="gallery-item" data-category="food">
+
+        <img src="images/food4.jpg" class="gallery-item" data-category="food">
+
+        <img src="images/food5.jpg" class="gallery-item" data-category="food">
+
+        <img src="images/tech1.jpg" class="gallery-item" data-category="technology">
+
+        <img src="images/tech2.jpg" class="gallery-item" data-category="technology">
+
+        <img src="images/tech3.jpg" class="gallery-item" data-category="technology">
+
+        <img src="images/tech4.jpg" class="gallery-item" data-category="technology">
+
+        <img src="images/tech5.jpg" class="gallery-item" data-category="technology">
+
+    </div>
+
+    <!-- Lightbox -->
+    <div class="lightbox">
+
+        <span class="close">&times;</span>
+
+        <button class="prev">&#10094;</button>
+
+        <img class="lightbox-image">
+
+        <button class="next">&#10095;</button>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
